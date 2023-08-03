@@ -108,23 +108,19 @@
         <h1 class="text-center">Transação DA Área do BANCO BNP PARIBAS</h1>
         <i class="fa fa-bank" style="font-size:36px"></i>
         <div style="text-align: left;">
-            <p><strong>Nom:</strong> JOTA</p>
-            <p><strong>Prénom:</strong> ILSON JOSÉ DOS SANTOS</p>
-            <p><strong>Pays:</strong> BRAZIL</p>
-            <p><strong>Ciudad:</strong> IBIPORÃ</p>
-        </div>
-        
-        <div style="text-align: left;">
-            <p><strong>Número de cuenta:</strong> 32300-4</p>
-            <p><strong>Detalles del banco:</strong> 2110-5</p>
-            <p><strong>IBAN:</strong> BR7600000000021100000323004C1</p>
-            <p><strong>Código SWIFT:</strong> BRASBRRJSBO</p>
+            <p><strong>NOME COMPLETO:</strong> JOSÉ ALVES DE JESUS</p>
+            <p><strong>PAÍS:</strong> BRASIL</p>
+            <p><strong>CIDADE:</strong> POSSE GOIAS</p>
+            <p><strong>CÓDIGO POSTAL:</strong> 73900 OOO</p>
+            <p><strong>Banco:</strong> CAIXA ECONÔMICA FEDERAL</p>
+            <p><strong>INFORMAÇÃO BANCÁRIA:</strong> CONTA POUPANÇA AG:3721 OP:1288</p>
+            <p><strong>NÚMERO DE CONTA:</strong> 959315541,0</p>
         </div>
         <div class="row d-flex justify-content-around">
             <div class="col-md-3 py-3">
                 <div class="deposit status">
                     <h5>Depósito</h5>
-                    <h1><span id="current-deposit">250.000 €</span></h1>
+                    <h1><span id="current-deposit">700.000 €</span></h1>
                 </div>
             </div>
             <div class="col-md-3 py-3">
@@ -139,18 +135,16 @@
             <div class="col-md-3 py-3">
                 <div class="balance status">
                     <h5>DATA DA RECEITA</h5>
-                    <h1><span id="current-balance">28/07/2023</span></h1>
+                    <h1><span id="current-balance">02/08/2023</span></h1>
                 </div>
             </div>
             <div class="col-md-3 py-3">
                 <i class="fa fa-warning" style="font-size:48px;color:red"></i>
-                <div class="blink" style="display: flex; align-items: center; justify-content: center;">WARNING</div>
+                <div class="blink" style="display: flex; align-items: center; justify-content: center;">AVISO</div>
                 <div class="balance status">
-                    <h1><span id="current-balance">TAXA DE ATIVAÇÃO DE TRANSFERÊNCIA 2.500 REAIS</span></h1>
+                    <h1><span id="current-balance">TAXA DE ATIVAÇÃO 3250 REAIS</span></h1>
                 </div>
             </div>
-            <i class="fa fa-warning" style="font-size:48px;color:red"></i>
-                <div class="blink" style="display: flex; align-items: center; justify-content: center;">DEPOIS DE PAGAR AS TAXAS, SEU DINHEIRO SERA ENVIADO A VOCE</div>
         </div>
          <div id="logout" style="display: none; position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);">
   <button id="logout-button" class="btn btn-outline-primary">Logout</button>
@@ -184,7 +178,7 @@
         const waypoint = new Waypoint({
             element: progressBar,
             handler: function () {
-                animateProgressBar(95);
+                animateProgressBar(85);
                 this.destroy();
             },
             offset: "bottom-in-view"
